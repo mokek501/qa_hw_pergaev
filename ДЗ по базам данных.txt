@@ -1,0 +1,6 @@
+1. SELECT * FROM test.Products;
+2. SELECT * FROM test.Products WHERE prod_price > 4;
+3. SELECT * FROM test.Customers WHERE cust_name != 'Fun4All';
+4. SELECT * FROM test.OrderItems ORDER BY item_price DESC;
+5. INSERT INTO Products(prod_id, vend_id, prod_name, prod_price, prod_desc)
+VALUES('PMA501', 'TEST007', 'JB car', '15.51', 'Big aston martin JB007');
